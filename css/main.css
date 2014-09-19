@@ -25,20 +25,20 @@ body {
   padding: 0;
 }
 
-header {
+div {
     background-color: #DDDDDD;
+    overflow: hidden;
+    display: block;
 }
 img {
   display: block;
   width: 100%;
-  margin: 0;
-  padding: 0;
 }
 
-h1 {
+.title {
     text-align:center;
     margin: 0;
-    padding: 0 0 .5em;
+    padding: 0 0 .5rem;
 }
 
 .nav {
@@ -46,7 +46,7 @@ h1 {
 }
 /* KEEP MARGIN, FOR LATER */
 
-li a {
+.nav a {
     text-decoration: none;
     color: #0074D9;
     margin:0;
@@ -55,13 +55,12 @@ li a {
 
 ul {
     list-style-type: none;
-    margin:0;
     padding:0;
 }
 
 @media only screen and (min-width: 20em) {
     
-    nav {
+    div {
         text-align: center;
     }
     
@@ -70,19 +69,19 @@ ul {
     }
 }
 
-@media only screen and (min-width: 50em) {
+@media only screen and (min-width: 40em) {
     
-    h1 {
-        text-align:left;
+    .title {
+        float:left;
         margin: 0;
         padding:0;
     }
     
-    nav {
-        text-align: center;
+    .nav {
+        float:left;
+        padding:
     }
+   
     
-    .nav li {
-        display:inline-block;
-    }
+
 }
