@@ -26,9 +26,13 @@ body {
 }
 
 .masthead {
-    background-color: #DDDDDD;
+    background-color: #ccc;
     overflow: hidden;
     display: block;
+}
+
+.moons-title {
+    background-color: #efefef;
 }
 img {
   display: block;
@@ -41,11 +45,19 @@ img {
     padding: 0 0 .5rem;
 }
 
+.info {
+    background-color: #e2e2e2;
+}
+
 .intro {
     background-color: #e2e2e2;
     text-align:center;
 }
 
+.photo-grey {
+    background-color: #efefef;
+}
+        
 .nav {
     padding:0;
 }
@@ -63,6 +75,10 @@ ul {
     padding:0;
 }
 
+.footer {
+    background-color: #ccc;
+}
+
 @media only screen and (min-width: 20em) {
     
     .masthead {
@@ -71,6 +87,19 @@ ul {
     
     .nav li {
         display:inline-block;
+    }
+}
+
+
+@media only screen and (min-width: 20em) {
+    
+    .footer {
+        text-align: center;
+    }
+    
+    .nav li {
+        display:inline-block;
+        text-align: center;
     }
 }
 
@@ -85,5 +114,23 @@ ul {
     .nav {
         float:left;
         padding:
+    }
+}
+
+@media only screen and (min-width: 80em) {
+    
+    .title {
+        float:left;
+        margin: 0;
+        padding:0;
+    }
+    
+    .nav {
+        float:left;
+        padding:
+    }
+    
+    .footer {
+        text-align: center;
     }
 }
