@@ -20,6 +20,27 @@ html {
   box-sizing: inherit;
 }
 
+@media only screen and (min-width: 60em) {
+ 
+    html {
+        font-size:110%;
+    }
+}
+
+@media only screen and (min-width: 90em) {
+ 
+    html {
+        font-size: 120%;
+    }
+}
+
+@media only screen and (min-width: 120em) {
+    
+    html {
+        font-size: 130%;
+    }
+ 
+}
 body {
   margin: 0;
   padding: 0;
@@ -91,7 +112,7 @@ ul {
 }
 
 
-@media only screen and (min-width: 20em) {
+@media only screen and (min-width: 25em) {
     
     .footer {
         text-align: center;
@@ -103,7 +124,7 @@ ul {
     }
 }
 
-@media only screen and (min-width: 40em) {
+@media only screen and (min-width: 38em) {
     
     .title {
         float:left;
@@ -118,23 +139,17 @@ ul {
     
     .footer {
         float: center;
+    }
+    
+    .copyright {
+        text-align: left;
+    }
+    
+    .footer-links {
+        float: right;
     }
 }
 
-@media only screen and (min-width: 80em) {
-    
-    .title {
-        float:left;
-        margin: 0;
-        padding:0;
-    }
-    
-    .nav {
-        float:left;
-        padding:
-    }
-    
-    .footer {
-        float: center;
-    }
+@media only screen and (min-width: 60em) {
+ 
 }
