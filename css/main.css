@@ -100,6 +100,10 @@ ul {
     background-color: #ccc;
 }
 
+.nebula {
+    background-color: #efefef;
+}
+
 @media only screen and (min-width: 20em) {
     
     .masthead {
@@ -134,11 +138,10 @@ ul {
     
     .nav {
         float:left;
-        padding:
     }
     
     .footer {
-        float: center;
+        text-align: center;
     }
     
     .copyright {
@@ -148,8 +151,35 @@ ul {
     .footer-links {
         float: right;
     }
+    
+    .top-links {
+        text-align: center;
+    }
+    
 }
 
 @media only screen and (min-width: 60em) {
- 
+    
+    .moon-info {
+        display: block;
+    }
+        
+    .moon-info dt {
+        float: left;
+        clear: left;
+        width: 12rem;
+    }
+    
+    .moon-info dd {
+        float: left;
+        width: 12rem;
+    }
+    
+    .nebula {
+        float: left;
+    }
+    
+    .top-links {
+        text-align:center;
+    }
 }
