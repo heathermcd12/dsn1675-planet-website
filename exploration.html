@@ -9,11 +9,17 @@
   <link href="css/type.css" rel="stylesheet">    
 </head>
 <body>
-<div class="masthead">   
+    
+<ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#navigation">Jump to navigation</a></li>
+</ul>
+    
+<div role="banner" class="masthead">   
     
    <h1 class="title">Mars</h1>
     
-    <nav>
+    <nav id="navigation" role="navigation">
             <ul class="nav gutter top-links unit-x-s-1 unit-s-1 unit-m-2-3 unit-l-2-3">
                 <li class="li island-1-2"> <a href="index.html">Planet</a></li>
                 <li class="li island-1-2"> <a href="moon.html">Moons</a></li>
@@ -22,12 +28,16 @@
     </nav>
 </div>
     
-<div>
-    <h3 class="intro island">Exploration</h3>
-</div>
+<main id="main" role="main">
+    
+    <div>
+        <h3 class="intro island">Exploration</h3>
+    </div>
+
+</main>
     
 <footer class="footer">
-    <div class="grid">
+    <div role="contentinfo" class="grid">
         <div class="copyright unit gutter-1-2 pad-top unit-x-s-1 unit-s-1 unit-m-1-2 unit-l-1-2">
             <p class="push-none">© 2014 Mars Planetary Consortium</p>
         </div>
