@@ -167,6 +167,10 @@ form {
     margin: 0 auto;
 }
 
+.h3 {
+    text-align: center;
+}
+
 
 @media only screen and (min-width: 20em) {
     
@@ -237,7 +241,11 @@ form {
         text-align:center;
     }
         
-    
+    button {
+        margin: 0 auto;
+    }
+        
+        
 }
 
 @media only screen and (min-width: 60em) {
@@ -268,6 +276,10 @@ form {
       .bodycopy {
         font-size: 1em;
         text-align:center;
+    }
+    
+     button {
+        margin: 0 auto;
     }
         
 }
