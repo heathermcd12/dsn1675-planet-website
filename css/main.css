@@ -134,6 +134,40 @@ ul {
     background-color: #efefef;
 }
 
+label {
+    display: block;
+}
+
+.radio {
+    white-space: nowrap;
+}
+
+input + label {
+    display: inline-block;
+}
+
+main {
+    background-color: #e2e2e2;
+}
+
+.field {
+    width: 100%;
+    padding: 0.2em 0.5em;
+    font-size: 1.25rem;
+}
+
+textarea {
+    width: 100%;
+    padding: 0.2em 0.5em;
+    font-size: 3em;
+}
+
+form {
+    max-width: 35em;
+    margin: 0 auto;
+}
+
+
 @media only screen and (min-width: 20em) {
     
     .masthead {
@@ -143,6 +177,12 @@ ul {
     .nav li {
         display:inline-block;
     }
+    
+      .bodycopy {
+        font-size: 1em;
+        text-align:center;
+    }
+        
 }
 
 
@@ -156,6 +196,12 @@ ul {
         display:inline-block;
         text-align: center;
     }
+    
+   .bodycopy {
+        font-size: 1em;
+        text-align:center;
+    }
+        
 }
 
 @media only screen and (min-width: 38em) {
@@ -185,6 +231,12 @@ ul {
     .top-links {
         text-align: center;
     }
+   
+    .bodycopy {
+        font-size: 1em;
+        text-align:center;
+    }
+        
     
 }
 
@@ -212,4 +264,10 @@ ul {
     .top-links {
         text-align:center;
     }
+    
+      .bodycopy {
+        font-size: 1em;
+        text-align:center;
+    }
+        
 }
