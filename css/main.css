@@ -241,8 +241,8 @@ form {
         text-align:center;
     }
         
-    button {
-        margin: 0 auto;
+    .button {
+        text-align: center;
     }
         
         
@@ -278,8 +278,8 @@ form {
         text-align:center;
     }
     
-     button {
-        margin: 0 auto;
+     .button {
+       text-align:center;
     }
         
 }
