@@ -9,7 +9,6 @@ html {
   padding: 0;
   box-sizing: border-box;
 
-  font: normal 100%/1.5 sans-serif;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -77,14 +76,15 @@ a:focus {
 }
 
 .masthead {
-    background-color: #ccc;
+    background-color: #660066 ;
     overflow: hidden;
     display: block;
 }
 
 .moons-title {
-    background-color: #efefef;
+    background-color: #660066;
 }
+
 img {
   display: block;
   width: 100%;
@@ -101,12 +101,12 @@ img {
 }
 
 .intro {
-    background-color: #e2e2e2;
     text-align:center;
+    background-color: #ffcccc;
 }
 
 .photo-grey {
-    background-color: #efefef;
+    background-color: #99cc66;
 }
         
 .nav {
@@ -116,9 +116,18 @@ img {
 
 .nav a {
     text-decoration: none;
-    color: #0074D9;
-    margin:0;
-    padding:0;
+    color: #ffccff;
+    display:block;
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active,
+.nav .nav-current,
+.nav .nav-current:link,
+.nav .nav-current:visited {
+    background-color: #ff6699;
+    color: #fff;
 }
 
 ul {
@@ -126,12 +135,16 @@ ul {
     padding:0;
 }
 
+.mid {
+    background-color: #660066;
+}
+
 .footer {
-    background-color: #ccc;
+    background-color: #660066;
 }
 
 .nebula {
-    background-color: #efefef;
+    background-color: #ff6699;
 }
 
 label {
@@ -146,14 +159,14 @@ input + label {
     display: inline-block;
 }
 
-main {
-    background-color: #e2e2e2;
-}
-
 .field {
     width: 100%;
     padding: 0.2em 0.5em;
     font-size: 1.25rem;
+}
+
+.field:focus {
+    outline: 3px solid #ff6699;
 }
 
 textarea {
@@ -168,7 +181,7 @@ form {
 }
 
 .h3 {
-    text-align: center;
+    text-align: center;   
 }
 
 
@@ -210,7 +223,7 @@ form {
 
 @media only screen and (min-width: 38em) {
     
-    .title {
+    le {
         float:left;
         margin: 0;
         padding:0;
@@ -218,6 +231,11 @@ form {
     
     .nav {
         float:left;
+    }
+    
+    .title {
+        text-align: left;
+        color: #F8F8FF;
     }
     
     .footer {
