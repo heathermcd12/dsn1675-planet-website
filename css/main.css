@@ -178,10 +178,23 @@ textarea {
 form {
     max-width: 35em;
     margin: 0 auto;
+    background-color: #ffcccc;
 }
+
+.field {
+    background-color: #ff6699;
+}
+
+.radio {
+    color: #ff6699;
+} 
 
 .h3 {
     text-align: center;   
+}
+
+.button {
+    color: #ff6699;
 }
 
 
@@ -262,6 +275,7 @@ form {
         
     .button {
         text-align: center;
+        
     }
         
         
